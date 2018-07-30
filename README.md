@@ -17,3 +17,12 @@
 |Broken Access Control Testing|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/access_control_testing/Authorization%20and%20Access.pdf)|Video|@jhaddix||
 |Recon and Discovery|[Slides]()|Video|@jhaddix||
 |Cross Site Scripting|[Slides]()|Video|@swagnetow||
+
+# Planned Modules
+
+|Module|Slides|Video|Authors|
+|------|--------|-----------|---------|
+|Server Side Request Forgery|[Slides]()|Video|N/A||
+|Security Misconfiguration|[Slides]()|Video|N/A||
+|XML External Entity Injection|[Slides]()|Video|N/A||
+|Advanced Burp Suite|[Slides]()|Video|N/A||
