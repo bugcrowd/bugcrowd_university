@@ -1,5 +1,9 @@
 # Bugcrowd University
 
+<p align="center">
+<img src="https://github.com/bugcrowd/bugcrowd_university/blob/master/images/logo.jpg">
+</p>
+ 
 ## Created by
 [![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix)
 [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)
