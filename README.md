@@ -18,7 +18,7 @@ Bugcrowd University is a free and open source project to help level-up our secur
 |Module|Slides|Video|Authors|
 |------|--------|-----------|---------|
 |An Introduction to BCU|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Introduction/BCU%20Introduction.pdf)|Video|@jhaddix, @swagnetow||
-|What Makes a Good Submission|Slides|Video|@swagnetow||
+|What Makes a Good Submission|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/What_makes_a_good_submission/Bugcrowd%20University%20-%20How%20to%20Make%20a%20Good%20Submission.pdf)|Video|@swagnetow||
 |An Introduction to Burp Suite|Slides|Video|@jhaddix, @swagnetow||
 |Broken Access Control Testing|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Access_control_testing/Bugcrowd%20University%20-%20Authorization%20and%20Access.pdf)|Video|@jhaddix||
 |Recon and Discovery|Slides|Video|@jhaddix||
