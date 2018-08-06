@@ -1,6 +1,6 @@
 # Bugcrowd University
 <p align="center">
-<img src="https://github.com/bugcrowd/bugcrowd_university/blob/master/assets/logo.png">
+<img src="https://github.com/bugcrowd/bugcrowd_university/blob/master/assets/logo.png" height="70%" width="70%">
 </p>
 
 ## Created by
@@ -17,10 +17,10 @@ Bugcrowd University is a free and open source project to help level-up our secur
 
 |Module|Slides|Video|Lab Guide|Authors|
 |------|--------|-----------|---------|---------|
-|An Introduction to BCU|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Introduction/BCU%20Introduction.pdf)|[Video](https://youtu.be/EZzAl-bfu7Q)|N/A|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix), [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
-|What Makes a Good Submission|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/What_makes_a_good_submission/Bugcrowd%20University%20-%20How%20to%20Make%20a%20Good%20Submission.pdf)|[Video](https://youtu.be/OVr7pnwJ2m8)|N/A|[![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
-|An Introduction to Burp Suite|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/An_introduction_to_Burp_Suite/Bugcrowd%20University%20-%20Burp%20Suite%20Introduction.pdf)|Video|N/A|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix), [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
-|Broken Access Control Testing|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Access_control_testing/Bugcrowd%20University%20-%20Authorization%20and%20Access.pdf)|Video|[Labs](https://github.com/bugcrowd/bugcrowd_university/blob/master/Access_control_testing/BOSS%20Lab%20Guide%20-%20Broken%20Access%20Control%20Testing.pdf)|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix)||
+|An Introduction to BCU|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Introduction/BCU%20Introduction.pdf)|[Video](https://youtu.be/EZzAl-bfu7Q)|none|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix), [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
+|What Makes a Good Submission|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/How_to_make_a_good_submission/Bugcrowd%20University%20-%20How%20to%20Make%20a%20Good%20Submission.pdf)|[Video](https://youtu.be/OVr7pnwJ2m8)|none|[![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
+|An Introduction to Burp Suite|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/An_introduction_to_Burp_Suite/Bugcrowd%20University%20-%20Burp%20Suite%20Introduction.pdf)|Video|none|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix), [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
+|Broken Access Control Testing|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Access_control_testing/Bugcrowd%20University%20-%20Broken%20Access%20Control%20Testing.pdf)|Video|[Labs](https://github.com/bugcrowd/bugcrowd_university/blob/master/Access_control_testing/BOSS%20Lab%20Guide%20-%20Broken%20Access%20Control%20Testing.pdf)|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix)||
 |Cross Site Scripting|Slides|Video|[Labs](https://github.com/bugcrowd/bugcrowd_university/blob/master/Cross_site_scripting/(BOSS%20Lab%20Guide)%20Cross%20Site%20Scripting.pdf)|[![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
 
 ## Planned Modules
@@ -81,3 +81,7 @@ Bugcrowd also has run several community-driven and researcher testing based conf
 |LevelUp 0x01 - Do you like fuzzing?|[Video](https://www.youtube.com/watch?v=uOfXud0iVf8)|[![Twitter](https://img.shields.io/badge/twitter-@abhijeth-blue.svg)](https://twitter.com/abhijeth), [![Twitter](https://img.shields.io/badge/twitter-@lalithr95-blue.svg)](https://twitter.com/lalithr95)|
 |LevelUp 0x01 - Reverse Engineering iOS Mobile Apps|[Video](https://www.youtube.com/watch?v=ONTvixnUVPw)|Emily Walls|
 |LevelUp 0x01 - Breaking Mobile App Protection Mechanisms|[Video](https://www.youtube.com/watch?v=jFBFh9QfmjM)|[![Twitter](https://img.shields.io/badge/twitter-@Ben_RA-blue.svg)](https://twitter.com/Ben_RA)|
+
+## License
+
+CC-BY-4.0 - Creative Commons Attribution 4.0 International
