@@ -81,3 +81,7 @@ Bugcrowd also has run several community-driven and researcher testing based conf
 |LevelUp 0x01 - Do you like fuzzing?|[Video](https://www.youtube.com/watch?v=uOfXud0iVf8)|[![Twitter](https://img.shields.io/badge/twitter-@abhijeth-blue.svg)](https://twitter.com/abhijeth), [![Twitter](https://img.shields.io/badge/twitter-@lalithr95-blue.svg)](https://twitter.com/lalithr95)|
 |LevelUp 0x01 - Reverse Engineering iOS Mobile Apps|[Video](https://www.youtube.com/watch?v=ONTvixnUVPw)|Emily Walls|
 |LevelUp 0x01 - Breaking Mobile App Protection Mechanisms|[Video](https://www.youtube.com/watch?v=jFBFh9QfmjM)|[![Twitter](https://img.shields.io/badge/twitter-@Ben_RA-blue.svg)](https://twitter.com/Ben_RA)|
+
+## License
+
+CC-BY-4.0 - Creative Commons Attribution 4.0 International
