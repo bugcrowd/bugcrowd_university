@@ -1,6 +1,6 @@
 # Bugcrowd University
 <p align="center">
-<img src="https://github.com/bugcrowd/bugcrowd_university/blob/master/assets/logo.png">
+<img src="https://github.com/bugcrowd/bugcrowd_university/blob/master/assets/logo.png" height="70%" width="70%">
 </p>
 
 ## Created by
