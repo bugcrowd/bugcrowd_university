@@ -27,6 +27,7 @@ Bugcrowd University is a free and open source project to help level-up our secur
 
 |Module|Slides|Video|Authors|
 |------|--------|-----------|---------|
+|Recon and Discovery|Slides|Video|N/A||
 |Server Side Request Forgery|Slides|Video|N/A||
 |Security Misconfiguration|Slides|Video|N/A||
 |XML External Entity Injection|Slides|Video|N/A||
