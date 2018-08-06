@@ -37,7 +37,7 @@ Bugcrowd University is a free and open source project to help level-up our secur
 
 ### Previous Work
 
-Bugcrowd believes in empowering its crowd through education. Some portions of Bugcrowd University were inspired by the *How to Shot Web* DEF CON 23 talk and several iterations of *The Bug Hunter\'s Methodology* talks. Because these talks outgrew the standard conference slot, each topic is represented in Bugcrowd University here as an entire module. **Below are those past talks archived for your viewing should you want to add them to your education.** We have also added several other useful talks and presentations by Bugcrowd staff that we think highlights great learning opportunities for our researchers: 
+Bugcrowd believes in empowering its crowd through education. Some portions of Bugcrowd University were inspired by the DEF CON 23 talk, *How to Shot Web*, as well as several iterations of *The Bug Hunter\'s Methodology* talks. Because these talks outgrew the standard conference slot, each topic is represented in Bugcrowd University here as an entire module. **Below are those past talks archived for your viewing should you want to add them to your education.** We have also added several other useful talks and presentations by Bugcrowd staff that we think highlights great learning opportunities for our researchers: 
 
 |Topic|Slides|Video|Authors|
 |------|--------|-----------|---------|
