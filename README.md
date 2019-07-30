@@ -8,6 +8,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)
 
 ## Contributors
+[![Twitter](https://img.shields.io/badge/Twitter-JeffBoothby-blue.svg)](https://twitter.com/jeffboothby)
 [![Twitter](https://img.shields.io/badge/twitter-@samhouston-blue.svg)](https://twitter.com/samhouston)
 
 ## What is Bugcrowd University?
@@ -29,9 +30,9 @@ Bugcrowd University is a free and open source project to help level-up our secur
 |------|--------|-----------|---------|
 |Recon and Discovery|Slides|Video|N/A||
 |Server Side Request Forgery|Slides|Video|N/A||
-|Security Misconfiguration|Slides|Video|N/A||
+|GitHub Recon and Sensitive Data Exposure|Slides|Video|N/A||
 |XML External Entity Injection|Slides|Video|N/A||
-|Advanced Burp Suite|Slides|Video|N/A||
+|Burp Suite Advanced|Slides|Video|N/A||
 
 
 
