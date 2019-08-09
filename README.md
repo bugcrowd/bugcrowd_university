@@ -8,6 +8,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)
 
 ## Contributors
+[![Twitter](https://img.shields.io/badge/Twitter-@chloemessdaghi-blue.svg)](https://twitter.com/chloemessdaghi)
 [![Twitter](https://img.shields.io/badge/Twitter-@jeffboothby-blue.svg)](https://twitter.com/jeffboothby)
 [![Twitter](https://img.shields.io/badge/twitter-@samhouston-blue.svg)](https://twitter.com/samhouston)
 
