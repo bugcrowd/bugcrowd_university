@@ -8,7 +8,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)
 
 ## Contributors
-[![Twitter](https://img.shields.io/badge/Twitter-JeffBoothby-blue.svg)](https://twitter.com/jeffboothby)
+[![Twitter](https://img.shields.io/badge/Twitter-@jeffboothby-blue.svg)](https://twitter.com/jeffboothby)
 [![Twitter](https://img.shields.io/badge/twitter-@samhouston-blue.svg)](https://twitter.com/samhouston)
 
 ## What is Bugcrowd University?
@@ -23,16 +23,17 @@ Bugcrowd University is a free and open source project to help level-up our secur
 |An Introduction to Burp Suite|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/An_introduction_to_Burp_Suite/Bugcrowd%20University%20-%20Burp%20Suite%20Introduction.pdf)|[Video](https://www.bugcrowd.com/resource/introduction-to-burp-suite/)|N/A|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix), [![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
 |Broken Access Control Testing|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Access_control_testing/Bugcrowd%20University%20-%20Broken%20Access%20Control%20Testing.pdf)|[Video](https://www.bugcrowd.com/resource/broken-access-control-testing/)|[Labs](https://github.com/bugcrowd/bugcrowd_university/blob/master/Access_control_testing/BOSS%20Lab%20Guide%20-%20Broken%20Access%20Control%20Testing.pdf)|[![Twitter](https://img.shields.io/badge/twitter-@jhaddix-blue.svg)](https://twitter.com/jhaddix)||
 |Cross Site Scripting|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Cross_site_scripting/Bugcrowd%20University%20-%20Cross%20Site%20Scripting.pdf)|[Video](https://www.bugcrowd.com/resource/cross-site-scripting-xss/)|[Labs](https://github.com/bugcrowd/bugcrowd_university/blob/master/Cross_site_scripting/BOSS%20Lab%20Guide%20-%20Cross%20Site%20Scripting.pdf)|[![Twitter](https://img.shields.io/badge/twitter-@swagnetow-blue.svg)](https://twitter.com/swagnetow)||
+|Recon and Discovery|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Recon%20and%20Discovery/Bugcrowd%20University%20-%20Recon%20%26%20Discovery.pdf)|[Video](https://www.bugcrowd.com/resources/webinars/recon-discovery)|N/A|[![Twitter](https://img.shields.io/badge/Twitter-@sml555_-blue.svg)](https://twitter.com/sml555_)||
+|Server Side Request Forgery|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Server%20Side%20Request%20Forgery/Bugcrowd%20University%20-%20Server%20Side%20Request%20Forgery.pdf)|[Video](https://www.bugcrowd.com/resources/webinars/server-side-forgery-request)|N/A|[![Twitter](https://img.shields.io/badge/Twitter-@alyssa%5Fherrera_-blue.svg)](https://twitter.com/Alyssa_Herrera_), [![Twitter](https://img.shields.io/badge/Twitter-@shipcod3-blue.svg)](https://twitter.com/shipcod3)||
+|GitHub Recon and Sensitive Data Exposure|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/GitHub%20Recon/Bugcrowd%20University%20-%20GitHub%20Recon%20and%20Sensitive%20Data%20Exposure.pdf)|[Video](https://www.bugcrowd.com/resources/webinars/github-recon-and-sensitive-data-exposure)|N/A|[![Twitter](https://img.shields.io/badge/Twitter-@th3g3nt3lman-blue.svg)](https://twitter.com/th3g3nt3lman)||
+|XML External Entity Injection|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/XML%20External%20Entity%20Injection/Bugcrowd%20University%20-%20XML%20External%20Entity%20Injection.pdf)|[Video](https://www.bugcrowd.com/resources/webinars/xml-external-entity-injection)|N/A|[![Twitter](https://img.shields.io/badge/Twitter-@fyoorer-blue.svg)](https://twitter.com/fyoorer)||
+|Burp Suite Advanced|[Slides](https://github.com/bugcrowd/bugcrowd_university/blob/master/Burp%20Suite%20Advanced/Bugcrowd%20University%20-%20Burp%20Suite%20Advanced.pdf)|[Video](https://www.bugcrowd.com/resources/webinars/advanced-burp-suite)|N/A|[![Twitter](https://img.shields.io/badge/Twitter-@jr0ch17-blue.svg)](https://twitter.com/JR0ch17)||
 
 ## Planned Modules
 
-|Module|Slides|Video|Authors|
-|------|--------|-----------|---------|
-|Recon and Discovery|Slides|Video|N/A||
-|Server Side Request Forgery|Slides|Video|N/A||
-|GitHub Recon and Sensitive Data Exposure|Slides|Video|N/A||
-|XML External Entity Injection|Slides|Video|N/A||
-|Burp Suite Advanced|Slides|Video|N/A||
+|Module|Slides|Video|Lab Guide|Authors|
+|------|--------|-----------|---------|---------|
+|To Be Determined|Slides|Video|N/A|N/A||
 
 
 
