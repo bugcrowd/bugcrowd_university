@@ -1,0 +1,130 @@
+name: Enforce Jira Ticket in PR Title
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+
+env:
+  ALLOWED_PATTERN: '^\[((PE|BC|INFRA|SEC|PLAT|SE)-[0-9]+|FIX|CHORE)\] .+'
+  COMMENT_MARKER: '<!-- pr-title-jira-check -->'
+
+jobs:
+  check-pr-title:
+    name: PR title contains Jira ticket
+    runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]'
+    permissions:
+      pull-requests: write
+
+    steps:
+      - name: Check PR title format
+        id: pr-check
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          echo "PR Title : $PR_TITLE"
+          echo "Pattern  : $ALLOWED_PATTERN"
+
+          if [[ "$PR_TITLE" =~ $ALLOWED_PATTERN ]]; then
+            echo "✅ PR title is valid"
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ PR title is invalid — see PR comment for expected formats"
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Manage PR title check comment
+        uses: actions/github-script@v9
+        env:
+          COMMENT_MARKER: ${{ env.COMMENT_MARKER }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const marker = process.env.COMMENT_MARKER;
+            const prTitle = context.payload.pull_request.title;
+            const isValid = '${{ steps.pr-check.outputs.found }}' === 'true';
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const repoParams = { owner, repo };
+
+            const titleFormats = [
+              ['[PE-XXXXX] Description', '[PE-12345] fix login bug'],
+              ['[BC-XXXXX] Description', '[BC-12345] fix login bug'],
+              ['[INFRA-XXXXX] Description', '[INFRA-12345] patch timeout'],
+              ['[SEC-XXXXX] Description', '[SEC-12345] security patch'],
+              ['[PLAT-XXXXX] Description', '[PLAT-12345] platform update'],
+              ['[SE-XXXXX] Description', '[SE-12345] fix login bug'],
+              ['[FIX] Description', '[FIX] fix login bug'],
+              ['[CHORE] Description', '[CHORE] update dependencies'],
+              ['[BC-XXXXX] Description (#PR)', '[BC-12345] fix login bug (#456)'],
+            ];
+
+            const formatTable = [
+              '| Format | Example |',
+              '|--------|---------|',
+              ...titleFormats.map(([format, example]) => `| \`${format}\` | \`${example}\` |`),
+            ].join('\n');
+
+            const failureBody = [
+              marker,
+              `## ❌ Invalid PR Title: \`${prTitle}\``,
+              '',
+              '**PR title must match one of the following formats:**',
+              '',
+              formatTable,
+              '',
+              '**How to fix:**',
+              '- Click the **Edit** button next to your PR title',
+              '- Update it to match one of the formats above',
+              '- The check re-runs automatically once the title is updated.',
+            ].join('\n');
+
+            const successBody = [
+              marker,
+              `## ✅ PR Title Valid: \`${prTitle}\``,
+              '',
+              'Jira ticket reference found. This PR is good to merge.',
+            ].join('\n');
+
+            const findMarkedComment = async () => {
+              const { data: comments } = await github.rest.issues.listComments({
+                ...repoParams,
+                issue_number,
+              });
+              return comments.find((c) => c.body?.includes(marker));
+            };
+
+            const upsertComment = async (commentId, body) => {
+              if (commentId) {
+                await github.rest.issues.updateComment({
+                  ...repoParams,
+                  comment_id: commentId,
+                  body,
+                });
+                console.log(`Updated comment ${commentId}`);
+                return;
+              }
+
+              await github.rest.issues.createComment({
+                ...repoParams,
+                issue_number,
+                body,
+              });
+              console.log('Created new comment');
+            };
+
+            const existing = await findMarkedComment();
+            const commentId = existing?.id;
+
+            if (!isValid) {
+              await upsertComment(commentId, failureBody);
+              core.setFailed('PR title does not match required format');
+              return;
+            }
+
+            if (commentId) {
+              await upsertComment(commentId, successBody);
+            }
