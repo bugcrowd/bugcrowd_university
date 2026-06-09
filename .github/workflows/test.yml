@@ -7,13 +7,9 @@ on:
       - edited
       - reopened
 
-env:
-  ALLOWED_PATTERN: '^\[((PE|BC|INFRA|SEC|PLAT|SE)-[0-9]+|FIX|CHORE)\] .+'
-  COMMENT_MARKER: '<!-- pr-title-jira-check -->'
-
 jobs:
-  check-pr-title:
-    name: PR title contains Jira ticket
+  test:
+    name: Just a little test
     runs-on: ubuntu-latest
     if: github.actor != 'dependabot[bot]'
     permissions:
@@ -22,8 +18,6 @@ jobs:
     steps:
       - name: Test
         uses: actions/github-script@v9
-        env:
-          COMMENT_MARKER: ${{ env.COMMENT_MARKER }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
